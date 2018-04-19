@@ -1,0 +1,105 @@
+
+.ue-gallery__modal{
+  margin:auto auto;
+  .modal-dialog{
+    max-width: 70%;
+  }
+.modal-content{
+  background: transparent;
+  border:none;
+}
+ }
+
+  .showcase-style-1{
+    .card{
+      height:15rem;
+      .title{
+        top:auto;
+        bottom:10px;
+      }
+    }
+  }
+  .showcase-style-2{
+    .card{
+      height:15rem;
+
+      background-position: top right;
+      background-repeat: no-repeat;
+      transition: all ease-in 0.5s;
+      &:hover{
+        background-position:top left;
+        transition: all ease-in 0.5s;
+      }
+      .showcase-details{
+        transition: all ease-in 0.5s;
+        background:rgba(0,0,0,0.5);
+      }
+      &:hover {
+        .showcase-details{
+          display: flex !important;
+          transition: all ease-in 0.5s;
+        }
+      }
+    }
+  }
+  .showcase-style-3{
+    .card{
+
+      min-height:15rem;
+      height:100%;
+
+
+      .showcase-details{
+        bottom:5px;
+        top:auto;
+
+        a{
+          &:hover{
+            color:#fff;
+
+          }
+        }
+      }
+    }
+  }
+  .showcase-style-4{
+    .ue-gallery__thumbnail{
+      border:3px solid #fff;
+      &:hover{
+        border:3px solid rgba(0,0,0,0.5);
+
+      }
+    }
+  }
+  .showcase-style-5{
+     .card{
+       min-height: 25rem;
+
+       &:hover .ue-showcase-outline{
+         top:-1rem;
+         left:1rem;
+         transition: all ease-in 0.2s;
+       }
+     }
+
+     .ue-showcase-content{
+       position: relative;
+       display:flex;
+       flex: 1;
+       .ue-showcase-outline{
+         transition: all ease-in 0.2s;
+       position: absolute;
+       top: 0rem;
+       left: 0rem;
+       border-width: 3px;
+       border-style: solid;
+       width: 100%;
+       height: 100%;
+       h3{
+         top:85%;
+       }
+       }
+
+     }
+
+  }

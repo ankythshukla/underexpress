@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/***** Variables Start *****/
+
+$font-body :'Lato', sans-serif;
+$font-title :  'Montserrat', sans-serif;
+$font-handwritten : 'Permanent Marker', cursive;
+$color-white : rgba(255,255,255,1);
+$color-primary : #007BFF;
+$color-warning : #ffc107;
+$color-success : #28a745;
+$color-info : #17a2b8;
+$color-secondary : #868e96;
+$color-dark : #343A40;
+$color-danger : #dc3545;
+$color-light : #f8f9fa;
+
+/**** Variables End *****/
+
+html{overflow-wrap:break-word;font-size:16px;}
+header{position: relative;}
+.bg-dark-gradient{
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+a{
+  color:inherit;
+  opacity: 0.9;
+  &:hover{
+    text-decoration: none;
+    color:inherit;
+    opacity: 1;
+    cursor:pointer;
+  }
+}
+ul{list-style-type: none;}
+.uppercase{text-transform: uppercase;}
+.circle{border-radius: 100% !important;}
+.font-title{-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;font-family: $font-title;font-weight: lighter;}
+  .font-body, body{font-family: $font-body;}
+  .font-handwritten{font-family: $font-handwritten;}
+  .align-center{display: flex;align-items: center;}
+  .justify-center{display: flex;justify-content: center;}
+  .content-center{display: flex;align-items: center;justify-content: center;}
+  .inline{display: inline-block;}
+  .no-wrap{white-space: nowrap;}
+  .flex-1{flex:1 !important;}
+  .full-width{width:100% !important;}
+  .navbar .alternate-nav{list-style-type:none; }
+  .navbar .alternate-nav .nav-item{display:inline-block;}
+  .overlay{position: absolute;width:100%; height:100%; left:0; top:0; background:rgba(0,0,0,1);  }
+  .cwhite{color:$color-white;}
+  .p-relative{position: relative;}
+  .p-absolute{position: absolute;}
+  .flex-row{flex-direction: row;}
+  .flex{display: flex;}
+  .material-shadow{  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+  .material-shadow-1{box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+  .mline{position: relative; width:50%; margin:0.5rem auto;height: 2px;}
+  .z-1{z-index:1;}
+  .z-0{z-index: 0;}
+  .v-line{ height: 2.5rem;
+    display: block;
+    position: relative;
+    padding: 1px;
+    top: 2rem;}
+    .slanted{    transform: rotate(-12deg);
+      height: 15rem;
+      position: absolute;
+      background: #fff;
+      width: 118%;
+      bottom: -8rem;
+      display: block;}
+      .text-hue{
+        -ms-transform: rotate(-12deg);
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .left-line{display: inline-block;height:0.2rem; width:10rem; float:left;}
+      .o-hidden{overflow: hidden;}
+      .bolder{font-weight: bolder;}
+      .lighter{font-weight: lighter;}
+      .normal-wrap{white-space:normal; }
+      .btn-rounded{border-radius: 2rem;padding-right:1rem !important; padding-left: 1rem !important;}
+      .border-white{border-color : $color-white ;}
+      .border-primary{border-color:$color-primary ;}
+      .border-warning{border-color:$color-warning  ;}
+      .border-success{border-color:$color-success  ;}
+      .border-info{border-color:$color-info  ;}
+      .border-secondary{border-color:$color-secondary ;}
+      .border-dark{border-color:$color-dark  ;}
+      .border-danger{border-color:$color-danger  ;}
+      .border-light{border-color:$color-light  ;}
+      .cwhite{color : $color-white ;}
+      .cprimary{ color:$color-primary ;}
+      .cwarning{ color:$color-warning  ;}
+      .csuccess{ color:$color-success  ;}
+      .cinfo{ color:$color-info  ;}
+      .csecondary{ color:$color-secondary ;}
+      .cdark{ color:$color-dark  ;}
+      .cdanger{color:$color-danger  ;}
+      .clight{color:$color-light  ;}
+      .font-b-line{
+        &:after{
+          content:'';
+          width: 13%;
+          height: 2px;
+          display: block;
+          background: $color-primary;
+          top: 7px;
+          position: relative;
+          left: 2px;
+        }
+      }
+      footer{position:relative;}
+      .op-1{opacity: 0.1;}
+      .op-2{opacity: 0.2;}
+      .op-3{opacity: 0.3;}
+      .op-4{opacity: 0.4;}
+      .op-5{opacity: 0.5;}
+      .op-6{opacity: 0.6;}
+      .op-7{opacity: 0.7;}
+      .op-8{opacity: 0.8;}
+      .op-9{opacity: 0.9;}
+      .no-border{border:0px;}
+      .flat{border-radius: 0px !important;}
+      .btn{-webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        -moz-font-feature-settings: "liga" on;font-family: $font-title;}
+        .btn-warning{
+          background-color:transparentize($color-warning, 0.1);
+          &:hover{
+            background-color:$color-warning;
+          }
+        }
+        .btn-primary{
+          background-color:transparentize($color-primary, 0.1);
+          &:hover{
+            background-color:$color-primary;
+          }
+
+        }
+        .btn-success{
+          background-color:transparentize($color-success, 0.1);
+          &:hover{
+            background-color:$color-success;
+          }
+
+        }
+        .btn-info{
+          background-color:transparentize($color-info, 0.1);
+          &:hover{
+            background-color:$color-info;
+          }
+
+        }
+        .btn-danger{
+          background-color:transparentize($color-danger, 0.1);
+          &:hover{
+            background-color:$color-danger;
+          }
+
+        }
+        .btn-secondary{
+          background-color:transparentize($color-secondary, 0.1);
+          &:hover{
+            background-color:$color-secondary;
+          }
+
+        }
+        .btn-light{
+          background-color:transparentize($color-light, 0.1);
+          &:hover{
+            background-color:$color-light;
+          }
+
+        }
+        .btn-dark{
+          background-color:transparentize($color-dark, 0.1);
+          &:hover{
+            background-color:$color-dark;
+          }
+
+        }
+        .font-jumbo{font-size:3.5rem;line-height: 4.5rem;}
+        .corange{color:#DA552F;}
+        .bg-transparent{background:transparent;}
+        .bg-hue-dark{
+          background: #232526;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .bg-hue-blue{
+          background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+        }
+        .bg-hue-orange{
+          background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+        }
+        .bg-hue-yellow{
+          background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+        }
+        .bg-hue-red{
+          background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
+        }
+        .bg-hue-violet{
+          background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+        }
+
+        .bg-hue-turquoise{
+          background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+        }
+        .bg-hue-green{
+          background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+        }
+        .background-cover{
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .background-fixed{
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        /*for tablets and mobiles */
+        @media only screen and (max-width: 767px) {
+          html{
+            font-size:8px;
+          }
+        }

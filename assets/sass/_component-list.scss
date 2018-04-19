@@ -1,0 +1,21 @@
+.components-list{
+ list-style-type: none;
+ text-align: center;
+
+   li{
+     display: inline-block;
+     a{
+       border:1px solid rgba(255,255,255,0.4);
+       display: inline-block;
+       margin:0.5rem;
+       color:#fff;
+       padding:0.25rem 0.5rem;
+       border-radius: 0.20rem;
+       &:hover{
+         text-decoration: none;
+       }
+
+     }
+
+ }
+}

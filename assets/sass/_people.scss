@@ -1,0 +1,59 @@
+.people-style-3{
+.people-style-3__background{
+  min-height:15rem;
+}
+}
+.card-people-4{
+  .card-header{
+    min-height:8rem;
+    display: relative;
+  }
+  .card-body{
+    .card-people-4__dp{
+      position: absolute;
+      display: inline;
+      border-radius: 100%;
+      top:-2rem;
+      width: 4rem;
+      border:2px solid rgba(255,255,255,0.7);
+      right:0px;
+      left:0px;
+      margin:auto;
+    }
+  }
+}
+.card-people-5{
+  .card-header{
+    min-height:15rem;
+    position: relative;
+    .card-people-5__title{
+      bottom:0px;
+      position: absolute;
+    }
+  }
+  .card-body{
+    .card-people-5__cta{
+      position: absolute;
+    }
+  }
+}
+.card-people-6{
+.card-header{
+  min-height: 15rem;
+  overflow: hidden;
+  position: relative;
+  .card-people-6__cta{
+    position: absolute;
+    bottom: 1rem;
+    left:1rem;
+  }
+  .card-people-6__dp{
+    border-radius: 100%;
+    position: absolute;
+    width:14rem;
+    top:-4rem;
+    right:-2rem;
+    border:3px solid rgba(255,255,255,0.9);
+  }
+}
+}

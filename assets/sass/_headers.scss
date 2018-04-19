@@ -1,0 +1,199 @@
+.header-style-1{
+  background-image: url('../../assets/img/backgrounds/left_side.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-style-3{
+  background-image: url('../../assets/img/backgrounds/pink_products.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-style-4{
+  background-image: url('../../assets/img/backgrounds/workspace.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .mock-up-img{
+    max-width:30rem;
+    width:100%;
+    position: relative;
+    top:5rem;
+  }
+}
+.header-style-5{
+
+  .card-play-box{
+    background-image: url('../../assets/img/backgrounds/guy_wall.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:250px;
+    height:250px;
+    max-width:90%;
+  }
+}
+.header-style-6{
+
+  .styled-card{
+    background: #fff;
+    right: -5rem;
+    z-index: 1;
+    left: 5rem;
+    top:50%;
+    transform:translate(0,-50%);
+  }
+
+  .with-background{
+    min-height :30rem;
+    background-image: url('../../assets/img/backgrounds/guy_wall.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+}
+.header-style-8{
+  background-image: url('../../assets/img/backgrounds/colors.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .hero-content{
+    -ms-transform: rotate(-12deg); /* IE 9 */
+    -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
+    transform: rotate(-12deg);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    span{
+
+      &:before{
+        content: '';
+        width: 73%;
+        background: #fff;
+        height: 2px;
+        display: block;
+        margin: 15px auto;
+        padding: 0px;
+
+      }
+
+    }
+  }
+}
+.header-style-9{
+  .dp-container{
+  background-image: url('../../assets/img/backgrounds/guy.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 35rem;
+}}
+
+.header-style-10{
+
+  .carousel{
+    .carousel-control-prev-icon,.carousel-control-next-icon{
+      width: 3rem;
+      height: 3rem;
+      background-color: #000;
+      background-position: center;
+      background-size: 50%;
+    }
+    .carousel-caption{
+      top:1rem;
+      .cta{
+        margin-top:10px;
+      }
+      .font-jumbo{
+        b{
+          background: rgba(0,0,0,0.5);}
+        }
+      }
+    }
+  }
+
+  .header-style-11{
+    background-image: url('../../assets/img/backgrounds/tools.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .headline{
+      &.outlined{
+
+        border:4px solid rgba(255,255,255,1);
+      }
+
+    }
+  }
+  .header-style-12{
+    background-image: url('../../assets/img/backgrounds/forest.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .header-style-13{
+    background-image: url('../../assets/img/backgrounds/mac1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .content-slant{
+      position: absolute;
+    width: 141%;
+    height: 131%;
+    transform: rotate(7deg);
+    right: -3rem;
+    bottom: -1.5rem;
+    }
+    .content-back{
+      min-height: 25rem;
+    }
+  }
+  .header-style-14{
+    background-image: url('../../assets/img/backgrounds/food.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-image: url('../../assets/img/backgrounds/round-ribbon.png');
+    background-size: 36px 16px;
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+  }
+}
+.header-style-15{
+  .content-block{
+    min-height: 20rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:hover{
+       .overlay{
+         display: none !important;
+       }
+    }
+  }
+
+  .content-block-1{
+    background-image: url('../../assets/img/backgrounds/fire-boy.jpeg');
+
+  }
+  .content-block-2{
+    background-image: url('../../assets/img/backgrounds/fire-girl.jpeg');
+  }
+  .content-block-3{
+    background-image: url('../../assets/img/backgrounds/fire-boy1.jpeg');
+  }
+  .content-block-4{
+    background-image: url('../../assets/img/backgrounds/fire-boy2.jpeg');
+  }
+}

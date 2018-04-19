@@ -1,0 +1,28 @@
+.pricing-style-4 .pricing-card{
+  transition: background ease-in 0.25s;
+  &:hover{
+    background:rgba(255,255,255,0.5) !important;
+    transition: background ease-in 0.25s;
+  }
+}
+.pricing-style-7 .pricing-card{
+  .card-header{
+    min-height: 10rem;
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: all ease-in 1s;
+  }
+  &:hover .card-header{
+    background-size: 120%;
+    transition: all ease-in 1s;
+  }
+}
+.pricing-style-8{
+  .pricing-card{
+    img{width:100px;}
+
+  }
+}
+
+ 

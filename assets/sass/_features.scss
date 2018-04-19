@@ -1,0 +1,51 @@
+.feature-style-3{
+  .card{
+    .header{
+      min-height:8rem;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.feature-style-6{
+  .title-icon{
+    font-size: 1.5rem;
+  }
+}
+.feature-style-7{
+  .content-feature{
+    border-width:1px;
+    border-style:solid;
+    .title-icon{
+      font-size:2rem;
+    }
+  }
+
+}
+.feature-style-8{
+  .content-feature{
+ 
+    .icon-container{
+      height: 3.375rem;
+    min-width: 3.375rem;
+    width: 3.375rem;
+    padding: 0.55rem 0px;
+    font-size: 0.9375rem;
+    overflow: hidden;
+    line-height: normal;
+    top: -1.6rem;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 100%;
+
+    }
+    .title-icon{
+      font-size: 1.5rem;
+      line-height: 2rem;
+
+    }
+  }
+
+}

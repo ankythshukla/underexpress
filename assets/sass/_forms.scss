@@ -1,0 +1,33 @@
+.form-style-3{
+  label{
+    color:#fff;
+  }
+  input{
+    border:none;
+    border-bottom:2px solid rgba(255,255,255,0.9);
+    border-radius: 0px;
+    color:#fff;
+  }
+}
+.form-style-9{
+  input{
+border-bottom:1px solid #fff;
+  &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+&::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+&::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+}
+}
