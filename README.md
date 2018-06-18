@@ -12,4 +12,4 @@ UnderExpress has 100+ custom coded, handcrafted UI components to make stunning w
 
 Use it to save time and create the best home for your idea on the web.
 
-[Have a look](https://underexpress.com/free-website-kit) and send some :sparkles :star
+[Have a look](https://underexpress.com/free-website-kit) and send some :star:
